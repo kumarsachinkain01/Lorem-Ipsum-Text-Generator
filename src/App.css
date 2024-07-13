@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #070520;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  /*box-shadow: 1px 1px 20px rgb(212, 11, 11);*/
+  filter: drop-shadow( 1px 5px 10px rgb(6, 187, 178));
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.title h1 {
+ /* box-shadow: 6px 1px 20px rgb(20, 8, 66);*/
+ /* filter: drop-shadow( 1px 5px 10px rgb(212, 11, 11));*/
+  margin: 0;
+  color: #333;
+  border-radius: 8px;
+  text-shadow: 7px 7px 10px rgb(99, 122, 122);
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.optionsContainer > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.optionsContainer p {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.optionsContainer input,
+.optionsContainer select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.copy {
+  margin-top: 20px;
+}
+
+.copy button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy button:hover {
+  background-color: #0056b3;
+}
+
+.output {
+  text-align: left;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.output p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
